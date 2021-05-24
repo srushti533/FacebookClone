@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind Components;
+@tailwind utilities;
+
+@layer Components {
+  .icon {
+    @apply hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-70
+     cursor-pointer hover:bg-gray-300;
+  }
+}
